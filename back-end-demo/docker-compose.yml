@@ -30,4 +30,8 @@ services:
       - MSG_PASS=${MSG_PASS}
       - DB_USER=${DB_USER}
       - DB_PASS=${DB_PASS}
+<<<<<<< HEAD
       - DB_DATABASE=${DB_DATABASE}
+=======
+      - DB_DATABASE=${DB_DATABASE}
+>>>>>>> 890cf5db51ba815e3cec6e294759b7ebf9c880d8

@@ -93,4 +93,8 @@ amqp.connect(messaging_url, function(error0, connection) {
       }
     });
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 890cf5db51ba815e3cec6e294759b7ebf9c880d8
