@@ -1,0 +1,12 @@
+db1:
+       build: ./db
+       environment:
+           POSTGRES_PASSWORD: asdffdsa
+           POSTGRES_REPLICA_PASSWORD: asdffdsa
+           POSTGRES_NODES: "db1 db2"
+   db2:
+       build: ./db
+       environment:
+           POSTGRES_PASSWORD: asdffdsa
+           POSTGRES_REPLICA_PASSWORD: asdffdsa
+           POSTGRES_NODES: "db1 db2"
